@@ -1,0 +1,75 @@
+/* app css stylesheet */
+
+.paddyPowerAppContainer {
+  border: 1px solid grey;
+  height: 800px;
+  width: 1000px;
+  margin:15px 0 0 15px;
+}
+
+.competitionsContainer {
+  padding: 3px;
+  margin-top:10px; 
+  eight: 780px;
+  width: 200px;
+  overflow-y: scroll;
+  border-right: 1px solid grey;
+  float: left;
+}
+
+.competitionsList {
+  padding: 3px;
+  margin-top:10px;
+  height: 780px;
+  width: 200px;
+  overflow-y: scroll;
+  border-right: 1px solid grey;
+  float: left;
+}
+
+.competitionsList {
+  padding: 3px;
+  margin-top:10px;
+  height: 780px;
+  width: 200px;
+  overflow-y: scroll;
+  border-right: 1px solid grey;
+  float: left;
+}
+
+.competitionsContainer {
+  padding: 3px;
+  margin-top:10px;
+  height: 780px;
+  width: 200px;
+  overflow-y: scroll;
+  border-right: 1px solid grey;
+  float: left;
+
+}
+
+.leaguesList {
+  cursor: pointer;
+  list-style-type: none;
+  padding: 1px;
+  margin: 0 2px 0 2px;
+}
+
+.eventsContainer {
+  margin-left: 10px;
+  height: 780px;
+  width: 765px;
+  float: left;
+  overflow-y: scroll;
+  overflow: scroll;
+}
+
+.competitionName {
+  height: 30px;
+  width: 765px;
+  padding: 5px;
+  margin: 10px 10px 10px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid grey;
+}

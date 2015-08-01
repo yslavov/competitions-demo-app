@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Paddy Power Events Demo</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="components/css/app.css">
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script type="text/javascript" src="components/services/ApiModule.js"></script>
+  <script src="components/controllers/app.js"></script>
+</head>
+<body>
+  <div id="paddyPowerApp" ng-cloak ng-app="paddyPowerApp" ng-controller="AppController">
+    <div class = "paddyPowerAppContainer">
+      <div class = "competitionsContainer" style = "">
+        <div class = "leaguesList" ng-repeat = "competition in competitions | orderBy:'name'" ng-click="toggleCompetitionData(competition)"> {{competition.name}} </div>
+      </div>
+
+      <div class = "eventsContainer">
+        <div class="competitionName">{{competitionName}}</div>
+        <div class="col-md-12" ng-repeat = "event in events" ng-click="toggleCompetitionData(competition)" style="list-style-type: none; padding: 1px; margin: 0 2px 0 2px">
+          <div class="col-md-8" >{{event.name}}</div>
+          <div class="col-md-4" ng-show="event.startTime">
+            <i class="glyphicon glyphicon-time"></i>
+            {{event.startTime | date:'medium'}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
