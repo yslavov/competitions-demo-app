@@ -1,6 +1,6 @@
 (function () {'use strict';
 
-angular.module('paddyPowerApp', ['ApiModule'
+angular.module('soccerEventsDemoApp', ['ApiModule'
 	])
 
 .controller('AppController',['$scope','ApiService',

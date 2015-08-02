@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Paddy Power Events Demo</title>
+  <title>Soccer Events Demo</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
   <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
@@ -14,8 +14,8 @@
   <script src="components/controllers/app.js"></script>
 </head>
 <body>
-  <div id="paddyPowerApp" ng-cloak ng-app="paddyPowerApp" ng-controller="AppController">
-    <div class = "paddyPowerAppContainer">
+  <div id="soccerEventsDemoApp" ng-cloak ng-app="soccerEventsDemoApp" ng-controller="AppController">
+    <div class = "soccerEventsAppContainer">
       <div class = "competitionsContainer" style = "">
         <div class = "leaguesList" ng-repeat = "competition in competitions | orderBy:'name'" ng-click="toggleCompetitionData(competition)"> {{competition.name}} </div>
       </div>
