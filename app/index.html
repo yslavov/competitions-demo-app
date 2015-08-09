@@ -22,7 +22,7 @@
 
       <div class = "eventsContainer">
         <div class="competitionName">{{competitionName}}</div>
-        <div class="col-md-12" ng-repeat = "event in events" ng-click="toggleCompetitionData(competition)" style="list-style-type: none; padding: 1px; margin: 0 2px 0 2px">
+        <div class="col-md-12" ng-repeat = "event in events" style="list-style-type: none; padding: 1px; margin: 0 2px 0 2px">
           <div class="col-md-8" >{{event.name}}</div>
           <div class="col-md-4" ng-show="event.startTime">
             <i class="glyphicon glyphicon-time"></i>
