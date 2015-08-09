@@ -1,6 +1,6 @@
 # Soccer competitions demo app
 
-This project is a demo of a typical [AngularJS](http://angularjs.org/) web app that displays Soccer Matches schedule from variety of international soccer leagues. The data is actually a sample data stored in a json file but the app still uses the $http service to to a Get call and returns a promise. Once the promise is resolved, the data is displayed in the view ass shown in the screenshot below.
+This project is a demo of a typical [AngularJS](http://angularjs.org/) web app that displays Soccer Matches schedule from variety of international soccer leagues. The data is actually a sample data stored in a json file but the app still uses the $http service to make a Get call that returns a promise. Once the promise is resolved, the data is displayed in the view as shown in the screenshot below.
 
 This app was quickly bootstrapped with node.js and angular-seed project.
 
