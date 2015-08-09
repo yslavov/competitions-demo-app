@@ -15,4 +15,4 @@ This app was quickly bootstrapped with node.js and angular-seed project.
 Once gone through step 5 you should have the demo app running on your machine.
 Simply navigate to http://localhost:8000/app/
 
-## Contact
+![alt tag](https://raw.githubusercontent.com/yslavov/competitions-demo-app/2a1cd07f7f6db758ccff508eb11b3a18a6c753d7/appScreenShot.png)
