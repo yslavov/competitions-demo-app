@@ -4,6 +4,9 @@
   "version": "0.0.0",
   "description": "retrieves and displays events data",
   "license": "MIT",
+  "dependencies": {
+    "bower": "^1.3.1"
+  },
   "devDependencies": {
     "bower": "^1.3.1",
     "http-server": "^0.6.1",
