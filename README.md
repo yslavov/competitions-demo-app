@@ -10,10 +10,13 @@ This app was quickly bootstrapped with node.js and angular-seed project.
 2. Simply clone the project from https://github.com/yslavov/competitions-demo-app.git
 3. CD to competitions-demo-app folder.
 4. run 'npm install' command
-5. run 'npm start' command
+5. run 'bower install' command
+6. run 'node server.js' command
 
-Once gone through step 5 you should have the demo app running on your machine.
-Simply navigate to http://localhost:8000/app/
+Once gone through all 6 you should have the demo app running on your machine.
+Simply navigate to http://localhost:3000/
+
+Also the app is currently hosted at https://yslavovsoccerapp.herokuapp.com/
 
 ## Current look of the app:
 ![alt tag](https://raw.githubusercontent.com/yslavov/competitions-demo-app/2a1cd07f7f6db758ccff508eb11b3a18a6c753d7/appScreenShot.png)
